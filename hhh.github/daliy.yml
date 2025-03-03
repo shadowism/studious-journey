@@ -2,7 +2,7 @@ name: Daily Check-In
 
 on:
   schedule:
-    - cron: "30 15 * * *"   # 每天 00:00 UTC 执行，根据你所在时区调整
+    - cron: "10 1 * * *"   # 每天 00:00 UTC 执行，根据你所在时区调整
 
 jobs:
   check-in:
