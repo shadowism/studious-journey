@@ -1,8 +1,10 @@
+permissions:
+  contents:write
 name: Daily Check-In
 
 on:
   schedule:
-    - cron: "5 5 * * *"   # 每天 00:00 UTC 执行，根据你所在时区调整
+    - cron: "18 16 * * *"   # 每天 00:00 UTC 执行，根据你所在时区调整
 
 jobs:
   check-in:
